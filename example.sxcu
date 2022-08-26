@@ -1,0 +1,10 @@
+{
+  "Version": "14.1.0",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://example.org/simple-uploader.php?token=!!CHANGEME!!&addRandom=true&randomLength=5",
+  "Body": "MultipartFormData",
+  "FileFormName": "upload",
+  "URL": "https://example.org{json:url}",
+  "DeletionURL": "http://example.org/simple-uploader.php?token=!!CHANGEME!!&del={json:url}"
+}
